@@ -16,6 +16,8 @@ class Span{
 
 		void printContent(void);
 		
-		void addNumber(void);
-		void
+		void addNumber(unsigned int x);
+		int shortestSpan(void);
+		int longestSpan(void);
+		void addNumbers(std::vector<unsigned int>::iterator begin, std::vector<unsigned int>::iterator end);
 };
