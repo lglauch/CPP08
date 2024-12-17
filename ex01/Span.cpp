@@ -1,4 +1,6 @@
 #include "Span.hpp"
+#include <climits>
+
 
 Span::Span(unsigned int N) : max_size(N) {
 	std::cout << "Default constructor called" << std::endl;
